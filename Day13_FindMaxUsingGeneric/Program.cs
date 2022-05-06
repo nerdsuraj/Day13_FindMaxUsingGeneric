@@ -13,7 +13,7 @@ namespace Day13_FindMaxUsingGeneric
             
 
             Console.WriteLine("Find The Maximum Program");
-            int output = FindMaxNumber.MaximumIntegerNumber(70, 100, 29);
+            int output = FindMaxNumber.MaximumIntegerNumber(20,52,56);
             Console.WriteLine(output);
             Console.ReadKey();
         }
