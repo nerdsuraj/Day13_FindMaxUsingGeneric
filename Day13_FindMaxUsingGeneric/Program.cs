@@ -10,12 +10,20 @@ namespace Day13_FindMaxUsingGeneric
     {
         static void Main(string[] args)
         {
-            
+
 
             Console.WriteLine("Find The Maximum Program");
-            int output = FindMaxNumber.MaximumIntegerNumber(20,52,56);
+            int output = FindMaxNumber.MaximumIntegerNumber(20, 52, 56);
             Console.WriteLine(output);
+
+           
+
+            Console.WriteLine("Maximum float value");
+            double doubleoutput = FindFlotMaxNumber.MaximumFloatNumber(22.11, 7.01, 29.02);
+            Console.WriteLine(doubleoutput);
+
             Console.ReadKey();
+
         }
     }
 }
