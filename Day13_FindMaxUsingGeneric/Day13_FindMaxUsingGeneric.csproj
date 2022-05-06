@@ -43,7 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FindFlotMaxNumber.cs" />
     <Compile Include="FindMaxNumber.cs" />
+    <Compile Include="FindMaxUsingGeneric.cs" />
+    <Compile Include="FindStringMax.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
