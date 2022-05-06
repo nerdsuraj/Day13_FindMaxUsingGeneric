@@ -19,8 +19,14 @@ namespace Day13_FindMaxUsingGeneric
            
 
             Console.WriteLine("Maximum float value");
-            double doubleoutput = FindFlotMaxNumber.MaximumFloatNumber(22.11, 7.01, 29.02);
+            double doubleoutput = FindFlotMaxNumber.MaximumFloatNumber(56.25, 99.56, 88.46);
             Console.WriteLine(doubleoutput);
+
+
+            Console.WriteLine("Maximum String value");
+            string stringoutput = FindStringMax.MaximumString("suraj", "azad", "rajesh");
+            Console.WriteLine(stringoutput);
+            Console.WriteLine();
 
             Console.ReadKey();
 
